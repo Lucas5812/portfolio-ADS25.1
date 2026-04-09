@@ -1,0 +1,42 @@
+/*Variáveis e regras especiais*/
+@font-face {
+    font-family: "wingding";
+    src: url("wingding.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    background-color: rgb(57, 54, 54);
+    text-align: center; 
+    color: rgb(188, 53, 53); 
+
+}   
+
+#introd {font-family: sans-serif;}
+
+.destaque {
+    background-color: rgb(188, 53, 53);
+    color: rgb(57, 54, 54)
+}
+
+a:visited {color: darkblue;}
+
+button:hover{background-color: green;} 
+*:focus{
+    outline: dotted rgb(255, 0, 200);
+}
+
+*:hover{
+    color:blue; 
+}
+
+.produtos{
+    width: 100%;
+}
+
+td, th{
+    width: 33%;
+}
