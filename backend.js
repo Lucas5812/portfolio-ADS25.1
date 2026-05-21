@@ -18,14 +18,16 @@ document.getElementById('texto').textContent="não posso deixar você prosseguir
 document.getElementById('titulo').textContent="Calma lá!";
 resolver.remove();
 adentrar.remove();
-document.getElementById('botao').style.display = 'inline-block';
+document.getElementById('botao').style.display = 'inline-block';    
 
         
 };
 
 const adentrar = document.createElement("button");
 adentrar.textContent = "(por favor não) A D E N T R E  A  F E N D A";
-adentrar.onclick = window.location.href("Garagem.html")
+adentrar.addEventListener("click", function(){
+    window.location.href= "Fenda.html";
+});
 
 function exploda(){
 document.getElementById('formulario').style.display = 'none';
@@ -49,7 +51,7 @@ if (!brexiste){
 };
 document.body.appendChild(adentrar);
 brexiste = true;
-document.getElementById('botao').style.display = 'none'
+document.getElementById('botao').style.display = 'none';
 
 }
 
