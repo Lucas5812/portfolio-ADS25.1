@@ -1,0 +1,14 @@
+{
+    "Funcionarios":[
+        {"Nome": "Ronaldo Cesar", "Vulgo": "O Menor Aprendiz", "Salario": "Mais do que deveria"},   
+        {"Nome": "Lucas Leandro", "Vulgo": "O Cara dos emails", "Salario": "Perdeu a casa"},
+        {"Nome": "Felipe Leonardo", "Vulgo": "O Gerente", "Salario": "Tabuleiro de Xadrez + Cubo Mágico"},
+        {"Nome": "João Paulo", "Vulgo": "O Caixista", "Salario": "2 gravetos + água sanitária"},
+        {"Nome": "Mariana França", "Vulgo": "A Cozinheira", "Salario": "Talher Sortido"},
+        {"Nome": "José Marcus", "Vulgo": "O Motoboy", "Salario": "1L de Gasolina Aditivada"},
+        {"Nome": "Marco Antônio", "Vulgo": "O Fornecedor", "Salario": "R$1906,66"},
+        {"Nome": "Arthur Luís", "Vulgo": "O Faz-Tudo", "Salario": "R$-10,00"}
+
+    ]
+
+}
